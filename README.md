@@ -26,5 +26,5 @@ composer require meta-store/flarum-ext-russian
 
 ## Ссылки
 
-- [**METADATA.Foundation**](https://metadata.foundation) - система поддержки и разработки открытых проектов.
-- [**META-STORE**](https://github.com/meta-store) - хранилище данных проекта [**METADATA**](https://metadata.foundation).
+- [**METADATA.Foundation**](https://metadata.foundation) - поддержка и разработка открытых проектов.
+- [**META-STORE**](https://github.com/meta-store) - хранилище открытых проектов [**METADATA**](https://metadata.foundation).
