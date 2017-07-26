@@ -4,8 +4,6 @@
 
 ## Установка
 
-### Использовать Composer
-
 **Flarum** использует [**Composer**](https://getcomposer.org) для управления зависимостями и расширениями.
 
 Русский пакет локализации доступен в [**Packagist**](https://packagist.org/packages/meta-store/flarum-ext-russian) и может быть установлен при помощи **Composer**.
