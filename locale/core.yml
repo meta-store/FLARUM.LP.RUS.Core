@@ -177,7 +177,7 @@ core:
     # These translations are used in the Change Email modal dialog.
     change_email:
       confirmation_message: => core.ref.confirmation_email_sent
-      confirm_password_label: "Подтвердите пароль"
+      confirm_password_placeholder: => core.ref.confirm_password
       dismiss_button: => core.ref.okay
       incorrect_password_message: "Введённый Вами пароль неверный."
       submit_button: => core.ref.save_changes
@@ -226,7 +226,7 @@ core:
       delete_confirmation: "Вы уверены, что хотите удалить дискуссию?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: "Войти для ответа"
-      rename_button: "Переименовать"
+      rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
 
