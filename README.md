@@ -6,11 +6,11 @@
 
 ### Использовать Composer
 
-Flarum использует Composer для управления зависимостями и расширениями.
+**Flarum** использует [**Composer**](https://getcomposer.org) для управления зависимостями и расширениями.
 
-Русский пакет локализации доступен в [Packagist](https://packagist.org/packages/meta-store/flarum-ext-russian) и может быть установлен при помощи Composer.
+Русский пакет локализации доступен в [**Packagist**](https://packagist.org/packages/meta-store/flarum-ext-russian) и может быть установлен при помощи **Composer**.
 
-Убедитесь, что [Composer](https://getcomposer.org) установлен на вашем компьютере, и введите следующую команду в терминале, находясь в корневой директории Flarum:
+Убедитесь, что **Composer** установлен на вашем компьютере, и введите следующую команду в терминале, находясь в корневой директории **Flarum**:
 
 ```
 composer require meta-store/flarum-ext-russian
@@ -18,13 +18,13 @@ composer require meta-store/flarum-ext-russian
 
 Так же, данная команда может быть использована для обновления языкового пакета, без обновления сторонних компонентов.
 
-Обратите внимание, что пакет локализации будет добавлен в качестве зависимости Flarum, и он также будет автоматически обновляться при обновлении движка форума.
+Обратите внимание, что пакет локализации будет добавлен в качестве зависимости **Flarum**, и он также будет автоматически обновляться при обновлении движка форума.
 
 ## Авторы
 
-- [Kitsune Solar](https://kitsune.solar) - редактор.
+- [**Kitsune Solar**](https://kitsune.solar) - редактор.
 
 ## Ссылки
 
-- [METADATA.Foundation](https://metadata.foundation) - система поддержки и разработки открытых проектов.
-- [META-STORE](https://github.com/meta-store) - хранилище данных проекта [**METADATA**](https://metadata.foundation).
+- [**METADATA.Foundation**](https://metadata.foundation) - система поддержки и разработки открытых проектов.
+- [**META-STORE**](https://github.com/meta-store) - хранилище данных проекта [**METADATA**](https://metadata.foundation).
