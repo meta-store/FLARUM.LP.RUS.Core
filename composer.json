@@ -21,14 +21,11 @@
 		}
 	],
 	"support": {
-		"email": "",
+		"email": "support@metadata.email",
 		"issues": "https://github.com/meta-store/FLARUM.LP.RUS.Core/issues",
 		"forum": "https://cyberspace.community",
 		"wiki": "https://flarum.help",
-		"irc": "",
-		"source": "https://github.com/meta-store/FLARUM.LP.RUS.Core",
-		"docs": "",
-		"rss": ""
+		"source": "https://github.com/meta-store/FLARUM.LP.RUS.Core"
 	},
 	"require": {
 		"flarum/core": "^0.1.0-beta.7"
