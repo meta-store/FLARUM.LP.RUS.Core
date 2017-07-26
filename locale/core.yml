@@ -12,7 +12,7 @@ core:
       developer_text: "Если Вы разработчик, Вы можете <a>прочитать документацию</a> и начать создавать собственные расширения."
       install_text: "В то же время, Вы можете найти расширения на <a>официальном сайте сообщества Flarum</a> и установить их при помощи Composer."
       temporary_text: "В не слишком отдалённом будущем, этот диалог позволит Вам легко добавлять расширения на свой форум. Мы создаём экосистему расширений!"
-      title: Add Extension
+      title: "Добавить расширение"
 
     # These translations are used in the Appearance page.
     appearance:
@@ -82,7 +82,7 @@ core:
     edit_header:
       customize_text: "Специальный HTML, который будет отображаться в самом верху страницы над собственным заголовком Flarum."
       submit_button: => core.ref.save_changes
-      title: Редактировать заголовок
+      title: "Редактировать заголовок"
 
     # These translations are used in the email page of the admin interface.
     email:
@@ -149,7 +149,7 @@ core:
       start_discussions_label: "Создать дискуссии"
       view_discussions_label: "Читать дискуссию"
       view_post_ips_label: "Смотреть IP-адреса"
-      view_user_list_label: View user list
+      view_user_list_label: "Смотреть список пользователей"
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:
@@ -240,13 +240,13 @@ core:
 
     # These translations are used in the Edit User modal dialog (admin function).
     edit_user:
-      activate_button: Activate User
+      activate_button: "Подтвердить пользователя"
       email_heading: => core.ref.email
       email_label: => core.ref.email
-      groups_heading: Groups
+      groups_heading: "Группы"
       password_heading: => core.ref.password
       password_label: => core.ref.password
-      set_password_label: Set new password
+      set_password_label: "Установить новый пароль"
       submit_button: => core.ref.save_changes
       title: "Изменить пользователя"
       username_heading: => core.ref.username
@@ -265,7 +265,7 @@ core:
     # These translations are used in the header and session dropdown menu.
     header:
       admin_button: "Администрирование"
-      back_to_index_tooltip: Back to discussion list
+      back_to_index_tooltip: "Вернуться к списку дискуссий"
       log_in_link: => core.ref.log_in
       log_out_button: => core.ref.log_out
       profile_button: "Профиль"
@@ -295,11 +295,11 @@ core:
       forgot_password_link: "Забыли пароль?"
       invalid_login_message: "Ваши данные для входа некорректны."
       password_placeholder: => core.ref.password
-      remember_me_label: Remember Me
+      remember_me_label: "Запомнить меня"
       sign_up_text: "Нет аккаунта? <a>Регистрация</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: "Имя пользователя или E-mail"
+      username_or_email_placeholder: "Имя пользователя или e-mail"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -331,15 +331,15 @@ core:
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_renamed_old_tooltip: 'The old title was: "{old}"'
+      discussion_renamed_old_tooltip: 'Старое название: "{old}"'
       discussion_renamed_text: '{username} изменил(а) название с "{old}" на "{new}".'
       load_more_button: => core.ref.load_more
       reply_placeholder: => core.ref.write_a_reply
-      time_lapsed_text: "{period} позже"
+      time_lapsed_text: "{period} спустя"
 
     # These translations are used by the rename discussion modal.
     rename_discussion:
-      title: Rename Discussion
+      title: "Переименовать дискуссию"
       submit_button: => core.ref.rename
 
     # These translations are used by the search results dropdown list.
@@ -357,7 +357,7 @@ core:
       notify_by_email_heading: => core.ref.email
       notify_by_web_heading: "Web"
       notify_discussion_renamed_label: "Кто-то переименовал мою дискуссию"
-      privacy_disclose_online_label: "Показывать онлайн-статус"
+      privacy_disclose_online_label: "Отображать мой статус online"
       privacy_heading: "Конфиденциальность"
       title: => core.ref.settings
 
@@ -456,7 +456,7 @@ core:
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "The username may only contain letters, numbers, and dashes."
+    invalid_username_message: "Имя пользователя может содержать только буквы, цифры, и тире."
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -524,7 +524,7 @@ core:
     notifications: "Оповещения"
     okay: "OK"                                      # Referenced by flarum-tags.yml
     password: "Пароль"
-    rename: Rename
+    rename: "Переименовать"
     reply: "Ответить"                               # Referenced by flarum-mentions.yml
     reset_your_password: "Сбросить пароль"
     restore: "Восстановить"
