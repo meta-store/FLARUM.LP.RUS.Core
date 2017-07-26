@@ -1,0 +1,61 @@
+{
+	"name": "meta-store/flarum-ext-russian",
+	"type": "flarum-extension",
+	"description": "Russian language pack for Flarum.",
+	"homepage": "https://metadata.foundation",
+	"keywords": [
+		"flarum",
+		"russian",
+		"language",
+		"locale",
+		"localization",
+		"translation"
+	],
+	"license": "GPL-3.0",
+	"authors": [
+		{
+			"name": "Kitsune Solar",
+			"email": "kitsune.solar@gmail.com",
+			"homepage": "https://kitsune.solar",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "",
+		"issues": "https://github.com/meta-store/FLARUM.LP.RUS.Core/issues",
+		"forum": "https://cyberspace.community",
+		"wiki": "https://flarum.help",
+		"irc": "",
+		"source": "https://github.com/meta-store/FLARUM.LP.RUS.Core",
+		"docs": "",
+		"rss": ""
+	},
+	"require": {
+		"flarum/core": "^0.1.0-beta.7"
+	},
+	"suggest": {
+		"flarum/flags": "Разрешает пользователям отмечать сообщения для рассмотрения модератором.",
+		"flarum/likes": "Разрешает пользователям отмечать понравившиеся сообщения.",
+		"flarum/lock": "Закрывает дискуссии и не позволяет добавлять новые сообщения.",
+		"flarum/mentions": "Упоминания и ответы отдельным пользователям.",
+		"flarum/pusher": "Смотреть новые дискуссии и сообщения в режиме реального времени, используя Pusher.",
+		"flarum/sticky": "Прикрепление дискуссий в списке.",
+		"flarum/subscriptions": "Разрешает пользователям наблюдать за дискуссиями и получать уведомления о новых сообщениях.",
+		"flarum/tags": "Структурирование дискуссий по иерархии тегов и категорий."
+	},
+	"extra": {
+		"flarum-extension": {
+			"title": "Русский",
+			"icon": {
+				"image": "icon.svg",
+				"backgroundColor": "#ffffff",
+				"backgroundSize": "cover",
+				"backgroundPosition": "center"
+			}
+		},
+		"flarum-locale": {
+			"code": "ru",
+			"title": "Русский"
+		}
+	}
+}
