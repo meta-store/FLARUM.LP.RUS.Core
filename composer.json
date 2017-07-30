@@ -2,7 +2,7 @@
 	"name": "meta-store/flarum-ext-russian",
 	"type": "flarum-extension",
 	"description": "Russian language pack for Flarum.",
-	"homepage": "https://metadata.foundation",
+	"homepage": "https://metastore.pro",
 	"keywords": [
 		"flarum",
 		"russian",
@@ -21,7 +21,7 @@
 		}
 	],
 	"support": {
-		"email": "support@metadata.foundation",
+		"email": "support@metastore.pro",
 		"issues": "https://github.com/meta-store/FLARUM.LP.RUS.Core/issues",
 		"forum": "https://cyberspace.community",
 		"wiki": "https://flarum.help",
