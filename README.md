@@ -6,12 +6,12 @@
 
 **Flarum** использует [**Composer**](https://getcomposer.org) для управления зависимостями и расширениями.
 
-Русский пакет локализации доступен в [**Packagist**](https://packagist.org/packages/meta-store/flarum-ext-russian) и может быть установлен при помощи **Composer**.
+Русский пакет локализации доступен в [**Packagist**](https://packagist.org/packages/metastore/flarum-ext-russian) и может быть установлен при помощи **Composer**.
 
 Убедитесь, что **Composer** установлен на вашем компьютере, и введите следующую команду в терминале, находясь в корневой директории **Flarum**:
 
 ```
-composer require meta-store/flarum-ext-russian
+composer require metastore/flarum-ext-russian
 ```
 
 Так же, данная команда может быть использована для обновления языкового пакета, без обновления сторонних компонентов.
